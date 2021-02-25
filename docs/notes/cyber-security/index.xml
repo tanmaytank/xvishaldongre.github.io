@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyber Security on </title>
+    <link>https://xvishaldongre.github.io/notes/cyber-security/</link>
+    <description>Recent content in Cyber Security on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://xvishaldongre.github.io/notes/cyber-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unit - 1</title>
+      <link>https://xvishaldongre.github.io/notes/cyber-security/unit-1/</link>
+      <pubDate>Mon, 19 Oct 2020 16:11:33 +0530</pubDate>
+      
+      <guid>https://xvishaldongre.github.io/notes/cyber-security/unit-1/</guid>
+      <description>Basics of Communication Systems  Transmission Media Transmission media is a communication channel that carries the information from the sender to the receiver.The main functionality of the transmission media is to carry the information in the form of bits through LAN(Local Area Network). It is a physical path between transmitter and receiver in data communication.The transmission media is available in the lowest layer of the OSI reference model.Transmission media is of two types are wired media and wireless media.</description>
+    </item>
+    
+    <item>
+      <title>Unit - 2</title>
+      <link>https://xvishaldongre.github.io/notes/cyber-security/unit-2/</link>
+      <pubDate>Mon, 19 Oct 2020 16:11:33 +0530</pubDate>
+      
+      <guid>https://xvishaldongre.github.io/notes/cyber-security/unit-2/</guid>
+      <description>Security principles The Principles of Security can be classified as follows:-
+  Confidentiality :- The Principles specifies that only the sender and receiver will be able to access the informaction shared between them. Confidentiality compromises if an unauthorized person is able to access the message. For Example, let us consider sender A wants to share some confidential information with reveiver B and the information intercepted by the attacker C.</description>
+    </item>
+    
+    <item>
+      <title>Unit - 3</title>
+      <link>https://xvishaldongre.github.io/notes/cyber-security/unit-3/</link>
+      <pubDate>Mon, 19 Oct 2020 16:11:33 +0530</pubDate>
+      
+      <guid>https://xvishaldongre.github.io/notes/cyber-security/unit-3/</guid>
+      <description> Cryptography  Cryptographic mechanisms  Digital signatures  Encryption  Certificates Lattice and reference monitors  Security levels and categories  Lattice diagram  Reference monitors  Security kernel  Hardware security features  Protecting memory </description>
+    </item>
+    
+    <item>
+      <title>Unit - 4</title>
+      <link>https://xvishaldongre.github.io/notes/cyber-security/unit-4/</link>
+      <pubDate>Mon, 19 Oct 2020 16:11:33 +0530</pubDate>
+      
+      <guid>https://xvishaldongre.github.io/notes/cyber-security/unit-4/</guid>
+      <description> Security models Chinese wall model Bell-La Padula Biba Non-deducibility Non-interference Other models  Network security  Protocol design principles  ISO architecture  IP security  SSL/TLS  Firewalls,  Intrusion detection </description>
+    </item>
+    
+    <item>
+      <title>Unit - 5</title>
+      <link>https://xvishaldongre.github.io/notes/cyber-security/unit-5/</link>
+      <pubDate>Mon, 19 Oct 2020 16:11:33 +0530</pubDate>
+      
+      <guid>https://xvishaldongre.github.io/notes/cyber-security/unit-5/</guid>
+      <description> Unix security and Windows security  Subjects objects and access control software security and database security  Memory management  Data and code  Relational databases Access control in databases  Statistical database security  General security principles  Access components  Access decisions  Administration and management issues </description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://xvishaldongre.github.io/notes/cyber-security/resources/</link>
+      <pubDate>Mon, 19 Oct 2020 16:11:33 +0530</pubDate>
+      
+      <guid>https://xvishaldongre.github.io/notes/cyber-security/resources/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
