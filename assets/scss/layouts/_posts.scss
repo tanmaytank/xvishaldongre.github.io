@@ -1,0 +1,28 @@
+.home .card,
+.contributors.list .card,
+.blog, .notes.list .card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
+}
+
+.home .card:hover,
+.contributors.list .card:hover,
+.blog, .notes.list .card:hover {
+  transform: scale(1.025);
+}
+
+.home .card-body,
+.contributors.list .card-body,
+.blog, .notes.list .card-body {
+  padding: 0 2rem 1rem;
+}
+
+.blog, .notes-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.blog, .notes-footer {
+  text-align: center;
+}
