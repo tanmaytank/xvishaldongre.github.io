@@ -8,6 +8,7 @@ languageCode = "en-US"
 paginate = 7
 rssLimit = 10
 publishDir= "docs"
+googleAnalytics = "UA-182172675-1"
 
 
 # add redirects/headers

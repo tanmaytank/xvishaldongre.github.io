@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://xvishaldongre.github.io/sitemap.xml

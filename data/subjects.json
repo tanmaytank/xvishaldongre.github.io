@@ -1,0 +1,112 @@
+{
+	"subjects": [
+		{
+			"code": "11",
+			"dir": "/notes/",
+			"name": "Fundamentals of Computers and PC-software",
+			"desc": "A computer is an electronic machine that accepts data, stores and processes data into information. The computer is able to work because there are instructions in its memory directing it."
+		},
+		{
+			"code": "12",
+			"dir": "/notes/",
+			"name": "Computer System Architecture",
+			"desc": "Computer architecture is a set of rules and methods that describe the functionality, organization, and implementation of computer systems."
+		},
+		{
+			"code": "13",
+			"dir": "/notes/",
+			"name": "Programming and Problem Solving Through C",
+			"desc": "C is a general-purpose programming language that is extremely popular, simple and flexible."
+		},
+		{
+			"code": "14",
+			"dir": "/notes/",
+			"name": "Internet & Web Technology",
+			"desc": "Web technologies are the various tools and techniques that are utilised in the process of communication between different types of devices over the internet."
+		},
+		{
+			"code": "15",
+			"dir": "/notes/",
+			"name": "Cyber Security",
+			"desc": "Cyber security is the practice of defending computers and servers, mobile devices, electronic systems, networks and data from malicious attacks."
+		},
+		{
+			"code": "16",
+			"dir": "/notes/",
+			"name": "Discrete Mathematics and Algebra",
+			"desc": "Discrete mathematics is the branch of mathematics dealing with objects that can assume only distinct, separated values."
+		},
+		{
+			"code": "21",
+			"dir": "/notes/",
+			"name": "Data Structures Using C++",
+			"desc": "A data structure is a particular way of organizing data in a computer so that it can be used effectively."
+		},
+		{
+			"code": "22",
+			"dir": "/notes/",
+			"name": "Database Management System & RDBMS",
+			"desc": "Database management system is a software which is used to manage the database."
+		},
+		{
+			"code": "23",
+			"dir": "/notes/",
+			"name": "Software Engineering",
+			"desc": "Software engineering is a branch of computer science which includes the development and building of computer systems software and applications software."
+		},
+		{
+			"code": "24",
+			"dir": "/notes/",
+			"name": "Operating System With Unix & Linux",
+			"desc": "The Unix operating system is a set of programs that act as a link between the computer and the user."
+		},
+		{
+			"code": "25",
+			"dir": "/notes/",
+			"name": "Accounting and Financial Management",
+			"desc": "Accounting is the process of recording financial transactions pertaining to a business."
+		},
+		{
+			"code": "26",
+			"dir": "/notes/",
+			"name": "Computer Oriented Numerical Methods",
+			"desc": "numerical method is a mathematical tool designed to solve numerical problems."
+		},
+		{
+			"code": "31",
+			"dir": "/notes/",
+			"name": "Object Oriented Programming Concepts Using Java",
+			"desc": "Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism etc in programming. We are using Java language here."
+		},
+		{
+			"code": "32",
+			"dir": "/notes/",
+			"name": "Computer Neworks",
+			"desc": "A computer network is a group of two or more interconnected computer systems. You can establish a network connection using either cable or wireless media."
+		},
+		{
+			"code": "33",
+			"dir": "/notes/",
+			"name": "Web Programming",
+			"desc": "Web programming refers to the writing, markup and coding involved in Web development, which includes Web content, Web client and server scripting and network security."
+		},
+		{
+			"code": "34",
+			"dir": "/notes/",
+			"name": "Management Information System",
+			"desc": "A Management Information System is an information system used for decision-making, and for the coordination, control, analysis, and visualization of information in an organization."
+		},
+		{
+			"code": "35",
+			"dir": "/notes/",
+			"name": "Computer Graphics (With Multimedia)",
+			"desc": "Computer graphics is a sub-field of computer science which studies methods for digitally synthesizing and manipulating visual content."
+		},
+		{
+			"code": "36",
+			"dir": "/notes/",
+			"name": "Cloud Computing Concepts",
+			"desc": "Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources."
+		}
+	]
+}
