@@ -4,7 +4,7 @@ date: 2020-10-19T16:11:33+05:30
 weight: 7
 sub: "BCA Syllabus"
 pdf: "/syllabus/first_year_syllabus.pdf"
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
@@ -13,7 +13,8 @@ ShowReadingTime: false
 Summary: "First Year BCA Syllabus (RDVV) pdf."
 ---
 
-<div id="adobe-dc-view" style="height: 700px; width: 100%;"></div>
+
+<div id="adobe-dc-view" style="height:700px"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
@@ -21,7 +22,8 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 		adobeDCView.previewFile({
 			content:{location: {url: "https://xvishaldongre.github.io/syllabus/first_year_syllabus.pdf"}},
 			metaData:{fileName: "BCA 1st Year Syllabus.pdf"}
-		}, {embedMode: "SIZED_CONTAINER", dockPageControls: false, defaultViewMode: CONTINUOUS}});
+		}, {defaultViewMode: "FIT_WIDTH", showAnnotationTools: false, defaultViewMode: CONTINUOUS, showLeftHandPanel: false, 
+			dockPageControls: false});
 	});
 </script>
 
