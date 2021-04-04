@@ -13,7 +13,6 @@ ShowReadingTime: false
 Summary: "First Year BCA Syllabus (RDVV) pdf."
 ---
 
-
 <script src="/js/print.min.js"></script>
 
 <a href="/syllabus/first_year_syllabus.pdf" class="dp-btn" download>Download 📥</a> or <button type="button" class="dp-btn" onclick="printJS({printable:'/syllabus/first_year_syllabus.pdf', type:'pdf', showModal:false})">Print 🖨</button> your choice.
@@ -25,32 +24,32 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 <!-- <iframe src="/pdfjs/web/viewer.html?file=/syllabus/first_year_syllabus.pdf" width="100%" height="700px" title="First Year Syllabus"></iframe> -->
 
 
+
 <div id="adobe-dc-view"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
-  function readFile(file) {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-
-    reader.onload = res => {
-      resolve(res.target.result);
-    };
-    reader.onerror = err => reject(err);
-
-    reader.readAsText(file);
-  });
-} 
+function readFile(file) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = res => {
+            resolve(res.target.result);
+            var filePromise = Promise.resolve(res.target.result);
+            var adobeDCView = new AdobeDC.View({clientId: "2bc4258a7d6040a99730f0fe6bfecf67", divId: "adobe-dc-view"});
+            adobeDCView.previewFile({
+                content: { promise: filePromise },
+                metaData: { fileName: "Syllabus.pdf" }
+            },
+                {
+                    defaultViewMode: "FIT_WIDTH", showAnnotationTools: false, showLeftHandPanel: false,
+                    dockPageControls: false
+                });
+        };
+        reader.onerror = err => reject(err);
+    })
+};
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "2bc4258a7d6040a99730f0fe6bfecf67", divId: "adobe-dc-view"});
-		adobeDCView.previewFile({
-			content:{location: {location: readFile("/syllabus/first_year_syllabus.pdf")},
-			metaData:{fileName: "First Year Syllabus .pdf"}
-		}, {defaultViewMode: "FIT_WIDTH", showAnnotationTools: false, showLeftHandPanel: false, 
-			dockPageControls: false});
-	});
+	readFile("/syllabus/first_year_syllabus.pdf")})
 </script>
-
-
 
 ---
 
@@ -91,7 +90,6 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 
 ---
 
-
 <div class="tg-wrap"><table class="tg">
 <thead>
   <tr>
@@ -121,7 +119,6 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
   </tr>
 </tbody>
 </table></div>
-
 
 ---
 
@@ -161,7 +158,6 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 
 ---
 
-
 <div class="tg-wrap"><table class="tg">
 <thead>
   <tr>
@@ -198,7 +194,6 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 
 ---
 
-
 <div class="tg-wrap"><table class="tg">
 <thead>
   <tr>
@@ -230,7 +225,6 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 </table></div>
 
 ---
-
 
 <div class="tg-wrap"><table class="tg">
 <thead>
