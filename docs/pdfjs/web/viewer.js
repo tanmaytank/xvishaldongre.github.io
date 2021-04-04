@@ -12526,7 +12526,7 @@ function getDefaultPreferences() {
       "scrollModeOnLoad": -1,
       "spreadModeOnLoad": -1,
       "textLayerMode": 1,
-      "useOnlyCssZoom": false,
+      "useOnlyCssZoom": z,
       "viewOnLoad": 0,
       "disableAutoFetch": false,
       "disableFontFace": false,
