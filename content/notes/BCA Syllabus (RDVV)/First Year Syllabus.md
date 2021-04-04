@@ -3,6 +3,7 @@ title: First Year Syllabus (RDVV)
 date: 2020-10-19T16:11:33+05:30
 weight: 7
 sub: "BCA Syllabus"
+pdf: "/syllabus/first_year_syllabus.pdf"
 showToc: true
 TocOpen: false
 draft: false
@@ -20,11 +21,6 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 **Tip**: Click on Subject name below to go to that subject notes.
 
 ---
-
- <div> 
-    <object type="text/html" data="/pdfjs/web/viewer.html?file=/syllabus/first_year_syllabus.pdf" width="800px" height="700px" style="overflow:auto;border:2px solid #E8E9EA">
-    </object>
- </div>
 
 
 ---
