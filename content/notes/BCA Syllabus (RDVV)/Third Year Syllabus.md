@@ -19,7 +19,7 @@ Summary: "Third Year BCA Syllabus (RDVV) pdf."
 		adobeDCView.previewFile({
 			content:{location: {url: "https://xvishaldongre.github.io/syllabus/third_year_syllabus.pdf"}},
 			metaData:{fileName: "BCA 3st Year Syllabus.pdf"}
-		}, {embedMode: "SIZED_CONTAINER", dockPageControls: false});
+		}, {embedMode: "SIZED_CONTAINER", dockPageControls: false, defaultViewMode: CONTINUOUS});
 	});
 </script>
 

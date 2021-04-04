@@ -21,7 +21,7 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 		adobeDCView.previewFile({
 			content:{location: {url: "https://xvishaldongre.github.io/syllabus/first_year_syllabus.pdf"}},
 			metaData:{fileName: "BCA 1st Year Syllabus.pdf"}
-		}, {embedMode: "SIZED_CONTAINER", dockPageControls: false});
+		}, {embedMode: "SIZED_CONTAINER", dockPageControls: false, defaultViewMode: CONTINUOUS}});
 	});
 </script>
 
