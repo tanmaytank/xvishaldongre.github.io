@@ -25,30 +25,17 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 
 
 
-<div id="adobe-dc-view"></div>
+<div id="adobe-dc-view" style="height: 700px"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
-function readFile(file) {
-    return new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.onload = res => {
-            resolve(res.target.result);
-            var filePromise = Promise.resolve(res.target.result);
-            var adobeDCView = new AdobeDC.View({clientId: "2bc4258a7d6040a99730f0fe6bfecf67", divId: "adobe-dc-view"});
-            adobeDCView.previewFile({
-                content: { promise: filePromise },
-                metaData: { fileName: "Syllabus.pdf" }
-            },
-                {
-                    defaultViewMode: "FIT_WIDTH", showAnnotationTools: false, showLeftHandPanel: false,
-                    dockPageControls: false
-                });
-        };
-        reader.onerror = err => reject(err);
-    })
-};
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-	readFile("/syllabus/first_year_syllabus.pdf")})
+		var adobeDCView = new AdobeDC.View({clientId: "2bc4258a7d6040a99730f0fe6bfecf67", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "https://xvishaldongre.github.io/syllabus/first_year_syllabus.pdf"}},
+			metaData:{fileName: "BCA First Year Syllabus.pdf"}
+		}, {defaultViewMode: "SIZED_CONTAINER", showAnnotationTools: false, showLeftHandPanel: false, 
+			dockPageControls: false});
+	});
 </script>
 
 ---
