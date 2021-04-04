@@ -19,8 +19,18 @@ Summary: "Third Year BCA Syllabus (RDVV) pdf."
 
 ---
 
-<iframe src="/pdfjs/web/viewer.html?file=/syllabus/third_year_syllabus.pdf" width="100%" height="700px" title="Third Year Syllabus"></iframe>
-
+<!-- <iframe src="/pdfjs/web/viewer.html?file=/syllabus/third_year_syllabus.pdf" width="100%" height="700px" title="Third Year Syllabus"></iframe> -->
+<div id="adobe-dc-view"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "2bc4258a7d6040a99730f0fe6bfecf67", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "https://xvishaldongre.github.io/syllabus/third_year_syllabus.pdf"}},
+			metaData:{fileName: "Third Year Syllabus.pdf"}
+		}, {defaultViewMode: "FIT_WIDTH", showAnnotationTools: false, showLeftHandPanel: false});
+	});
+</script>
 
 ---
 
