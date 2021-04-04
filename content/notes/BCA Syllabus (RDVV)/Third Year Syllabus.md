@@ -23,12 +23,25 @@ Summary: "Third Year BCA Syllabus (RDVV) pdf."
 <div id="adobe-dc-view"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
+  function readFile(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+
+    reader.onload = res => {
+      resolve(res.target.result);
+    };
+    reader.onerror = err => reject(err);
+
+    reader.readAsText(file);
+  });
+} 
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 		var adobeDCView = new AdobeDC.View({clientId: "2bc4258a7d6040a99730f0fe6bfecf67", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
-			content:{location: {url: "https://xvishaldongre.github.io/syllabus/third_year_syllabus.pdf"}},
-			metaData:{fileName: "Third Year Syllabus.pdf"}
-		}, {defaultViewMode: "FIT_WIDTH", showAnnotationTools: false, showLeftHandPanel: false});
+			content:{location: {location: readFile("/syllabus/third_year_syllabus.pdf")},
+			metaData:{fileName: "Third Year Syllabus .pdf"}
+		}, {defaultViewMode: "FIT_WIDTH", showAnnotationTools: false, showLeftHandPanel: false, 
+			dockPageControls: false});
 	});
 </script>
 
