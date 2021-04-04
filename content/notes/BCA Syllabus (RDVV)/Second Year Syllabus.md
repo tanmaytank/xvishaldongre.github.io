@@ -11,30 +11,17 @@ disableShare: false
 Summary: "Second Year BCA Syllabus (RDVV) pdf."
 ---
 
-<script src="/js/print.min.js"></script>
-
-<a href="/syllabus/second_year_syllabus.pdf" class="dp-btn" download>Download 📥</a> or <button type="button" class="dp-btn" onclick="printJS({printable:'/syllabus/second_year_syllabus.pdf', type:'pdf', showModal:false})">Print 🖨</button> your choice.
-
-**Tip**: Click on Subject name below to go to that subject notes.
-
----
-
- <!-- <iframe src="/pdfjs/web/viewer.html?file=/syllabus/second_year_syllabus.pdf" width="100%" height="700px" title="Second Year Syllabus"></iframe> -->
-
-
-<div id="adobe-dc-view" style="height: 700px"></div>
+<div id="adobe-dc-view" style="height: 700px; width: 100%;"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 		var adobeDCView = new AdobeDC.View({clientId: "2bc4258a7d6040a99730f0fe6bfecf67", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
 			content:{location: {url: "https://xvishaldongre.github.io/syllabus/second_year_syllabus.pdf"}},
-			metaData:{fileName: "BCA Second Year Syllabus.pdf"}
-		}, {defaultViewMode: "SIZED_CONTAINER", showAnnotationTools: false, showLeftHandPanel: false, 
-			dockPageControls: false});
+			metaData:{fileName: "BCA 2st Year Syllabus.pdf"}
+		}, {embedMode: "SIZED_CONTAINER", dockPageControls: false});
 	});
 </script>
-
 
 ---
 
