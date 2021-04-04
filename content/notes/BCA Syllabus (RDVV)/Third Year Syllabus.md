@@ -19,10 +19,7 @@ Summary: "Third Year BCA Syllabus (RDVV) pdf."
 
 ---
 
- <div> 
-    <object type="text/html" data="/pdfjs/web/viewer.html?file=/syllabus/third_year_syllabus.pdf" width="100%" height="700px" style="overflow:auto;border:2px solid #E8E9EA">
-    </object>
- </div>
+<iframe src="/pdfjs/web/viewer.html?file=/syllabus/third_year_syllabus.pdf" width="100%" height="700px" title="Third Year Syllabus"></iframe>
 
 
 ---

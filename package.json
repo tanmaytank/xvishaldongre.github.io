@@ -27,7 +27,10 @@
     "test": "npm run -s lint",
     "env": "env",
     "precheck": "npm version",
-    "check": "hugo version"
+    "check": "hugo version",
+    "pp": "npm run build && git add . && git commit -m",
+    "p": "git push"
+
   },
   "devDependencies": {
     "@babel/cli": "^7.12",
