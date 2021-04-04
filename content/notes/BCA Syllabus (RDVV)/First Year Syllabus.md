@@ -22,6 +22,11 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 
 ---
 
+ <div> 
+    <object type="text/html" data="/pdfjs/web/viewer.html?file=/syllabus/first_year_syllabus.pdf" width="100%" height="700px" style="overflow:auto;border:2px solid #E8E9EA">
+    </object>
+ </div>
+
 
 ---
 
