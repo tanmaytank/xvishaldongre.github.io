@@ -15,9 +15,17 @@ Summary: "First Year BCA Syllabus (RDVV) pdf."
 
 <script src="/js/print.min.js"></script>
 
-<a href="/first_year_syllabus.pdf" class="dp-btn" download>Download 📥</a> or <button type="button" class="dp-btn" onclick="printJS({printable:'first_year_syllabus.pdf', type:'pdf', showModal:false})">Print 🖨</button> your choice.
+<a href="/syllabus/first_year_syllabus.pdf" class="dp-btn" download>Download 📥</a> or <button type="button" class="dp-btn" onclick="printJS({printable:'/syllabus/first_year_syllabus.pdf', type:'pdf', showModal:false})">Print 🖨</button> your choice.
 
 **Tip**: Click on Subject name below to go to that subject notes.
+
+---
+
+ <div> 
+    <object type="text/html" data="/pdfjs/web/viewer.html?file=/syllabus/first_year_syllabus.pdf" width="800px" height="700px" style="overflow:auto;border:2px solid #E8E9EA">
+    </object>
+ </div>
+
 
 ---
 
